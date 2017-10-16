@@ -25,6 +25,7 @@ export default {
     ],
     module: {
         loaders: [
+          { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
             {test: /\.js$/, include: path.join(__dirname, 'src'), loaders: ['babel']},
             {test: /(\.css)$/, loaders: ['style', 'css']},
             {test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file'},
