@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc6e34e-139a-4095-9409-507778aba441" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/course/ManageCoursePage..js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/course/CourseForm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageCoursePage..js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ManageCoursePage..js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/course/ManageCoursePage..js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="344">
@@ -79,12 +78,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actionTypes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/actionTypes.js">
+      <file leaf-file-name="CourseForm.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/components/course/CourseListRow.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/components/course/ManageCoursePage..js" />
+        <option value="$PROJECT_DIR$/src/components/course/CourseForm.js" />
       </list>
     </option>
   </component>
@@ -320,7 +322,7 @@
       <workItem from="1507820186884" duration="1312000" />
       <workItem from="1507895655238" duration="534000" />
       <workItem from="1508161407923" duration="3202000" />
-      <workItem from="1508221489756" duration="16514000" />
+      <workItem from="1508221489756" duration="17531000" />
     </task>
     <task id="LOCAL-00001" summary="Added mapDispatchToProps as second optional parameter into connect function when exporting CoursesPage.js.&#10;&#10;Defined mapDispatchToProps to get a dispatch and return a object which contains the result of calling the dispatch with the action to create the course.&#10;&#10;Modified onclicksave deleting dispatch(courseActions because of we are using the dispatcher into the map itself.&#10;&#10;Removed the proptype to rquire for dispatcher because connect doesn't need it.">
       <created>1508246659278</created>
@@ -399,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508254606561</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created a file template to make React container components directly.&#10;New ManageCoursePage to see their info.&#10;Added a route to the course management page and other to edit it.">
+      <created>1508257018910</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1508257018910</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34973000" />
+    <option name="totallyTimeSpent" value="35990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="640" y="0" width="640" height="720" extended-state="0" />
@@ -446,7 +455,8 @@
     <MESSAGE value="Updated app entry point index.js to dispatch the loadCourses action into the store." />
     <MESSAGE value="Extracted out JSX from CoursesPage to create a CourseList to add in it.&#10;Also created CourseListRow to manage each of them separately.&#10;Added in CoursesPage the reference to them and destructed the object we pass in." />
     <MESSAGE value="Adding course category" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding course category" />
+    <MESSAGE value="Created a file template to make React container components directly.&#10;New ManageCoursePage to see their info.&#10;Added a route to the course management page and other to edit it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a file template to make React container components directly.&#10;New ManageCoursePage to see their info.&#10;Added a route to the course management page and other to edit it." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -455,16 +465,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/home/HomePage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -764,7 +764,7 @@
         <state relative-caret-position="153">
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -862,6 +862,16 @@
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
