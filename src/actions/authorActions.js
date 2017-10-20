@@ -1,15 +1,14 @@
 import AuthorApi from '../api/mockAuthorApi';
 import * as types from './actionTypes';
 
-export function loadAuthorsSuccess(authors) {
+export function loadAuthorSuccess(authors){
   return {type: types.LOAD_AUTHORS_SUCCESS, authors};
 }
 
-export function loadAuthors() {
+export function loadAuthors(){
   return dispatch => {
-    dispatch(beginAjaxCall());
     return AuthorApi.getAllAuthors().then(authors => {
-      dispatch(loadAuthorsSuccess(authors));
+      dispatch(loadAuthorSuccess(authors));
     }).catch(error => {
       throw(error);
     });
