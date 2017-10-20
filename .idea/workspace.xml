@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/actions/authorActions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -334,7 +334,7 @@
       <workItem from="1507895655238" duration="534000" />
       <workItem from="1508161407923" duration="3202000" />
       <workItem from="1508221489756" duration="25124000" />
-      <workItem from="1508484398756" duration="446000" />
+      <workItem from="1508484398756" duration="468000" />
     </task>
     <task id="LOCAL-00001" summary="Added mapDispatchToProps as second optional parameter into connect function when exporting CoursesPage.js.&#10;&#10;Defined mapDispatchToProps to get a dispatch and return a object which contains the result of calling the dispatch with the action to create the course.&#10;&#10;Modified onclicksave deleting dispatch(courseActions because of we are using the dispatcher into the map itself.&#10;&#10;Removed the proptype to rquire for dispatcher because connect doesn't need it.">
       <created>1508246659278</created>
@@ -462,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508344258873</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added missing extension.js to authorActions!">
+      <created>1508484880007</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1508484880008</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44029000" />
+    <option name="totallyTimeSpent" value="44051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="768" extended-state="0" />
@@ -516,7 +523,8 @@
     <MESSAGE value="Created a thunk to relate actions and dispatch in an asynchronous call in authorActions" />
     <MESSAGE value="Created an authorReducer to get the state and fire the action poperly.&#10;Created an initialState to host in a constants file all initial states.&#10;Changed rootReducer aka reducers/index.js to execute our author one.&#10;Making in our entry index.js point a call from the store to get all authors." />
     <MESSAGE value="Trying to map author data for the dropdown but browser says there is a bad import." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to map author data for the dropdown but browser says there is a bad import." />
+    <MESSAGE value="Added missing extension.js to authorActions!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added missing extension.js to authorActions!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -909,7 +917,7 @@
     <entry file="file://$PROJECT_DIR$/src/actions/authorActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
