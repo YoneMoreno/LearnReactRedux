@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/course/ManageCoursePage..js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <caret line="66" column="30" lean-forward="false" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -334,7 +334,7 @@
       <workItem from="1507895655238" duration="534000" />
       <workItem from="1508161407923" duration="3202000" />
       <workItem from="1508221489756" duration="25124000" />
-      <workItem from="1508484398756" duration="5073000" />
+      <workItem from="1508484398756" duration="6351000" />
     </task>
     <task id="LOCAL-00001" summary="Added mapDispatchToProps as second optional parameter into connect function when exporting CoursesPage.js.&#10;&#10;Defined mapDispatchToProps to get a dispatch and return a object which contains the result of calling the dispatch with the action to create the course.&#10;&#10;Modified onclicksave deleting dispatch(courseActions because of we are using the dispatcher into the map itself.&#10;&#10;Removed the proptype to rquire for dispatcher because connect doesn't need it.">
       <created>1508246659278</created>
@@ -504,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508511832133</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Adding a redirect after creating the course to courseList.&#10;Using react router context for first time ;=).">
+      <created>1508512620685</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1508512620685</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48656000" />
+    <option name="totallyTimeSpent" value="49934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="768" extended-state="0" />
@@ -563,7 +570,8 @@
     <MESSAGE value="Created a new thunk to saveCourse, created the actioncreator and the actionType ;=)" />
     <MESSAGE value="Added two cases to our courseReducer to manage creation and updating them" />
     <MESSAGE value="Fixing bug creating a course doesn't display its info just and empty row.&#10;Fixing browser complaining about having a table with a tr as a top level child." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing bug creating a course doesn't display its info just and empty row.&#10;Fixing browser complaining about having a table with a tr as a top level child." />
+    <MESSAGE value="Adding a redirect after creating the course to courseList.&#10;Using react router context for first time ;=)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a redirect after creating the course to courseList.&#10;Using react router context for first time ;=)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -963,7 +971,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/course/ManageCoursePage..js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <caret line="66" column="30" lean-forward="false" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding />
         </state>
       </provider>
