@@ -4,9 +4,6 @@ import CourseListRow from './CourseListRow';
 const CourseList = ({courses}) => {
   return (
     <table className="table">
-      <tr>
-        <td></td>
-      </tr>
 
       <thead>
       <tr>
