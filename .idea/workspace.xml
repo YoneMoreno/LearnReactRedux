@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1fc6e34e-139a-4095-9409-507778aba441" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.js" afterPath="$PROJECT_DIR$/src/components/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/Header.js" afterPath="$PROJECT_DIR$/src/components/common/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/course/ManageCoursePage..js" afterPath="$PROJECT_DIR$/src/components/course/ManageCoursePage..js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoadingDots.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/LoadingDots.js">
+      <file leaf-file-name="ManageCoursePage..js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/course/ManageCoursePage..js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="400">
+              <caret line="40" column="3" lean-forward="false" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -72,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -173,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/components/course/CoursesPage.js" />
         <option value="$PROJECT_DIR$/src/reducers/courseReducer.js" />
         <option value="$PROJECT_DIR$/src/components/course/CourseList.js" />
-        <option value="$PROJECT_DIR$/src/components/course/ManageCoursePage..js" />
         <option value="$PROJECT_DIR$/src/components/LoadingDots.js" />
         <option value="$PROJECT_DIR$/src/components/common/LoadingDots.js" />
         <option value="$PROJECT_DIR$/src/actions/ajaxStatusActions.js" />
@@ -185,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/actions/authorActions.js" />
         <option value="$PROJECT_DIR$/src/components/common/Header.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
+        <option value="$PROJECT_DIR$/src/components/course/ManageCoursePage..js" />
       </list>
     </option>
   </component>
@@ -338,7 +337,7 @@
       <workItem from="1508161407923" duration="3202000" />
       <workItem from="1508221489756" duration="25124000" />
       <workItem from="1508484398756" duration="7262000" />
-      <workItem from="1508653095120" duration="3933000" />
+      <workItem from="1508653095120" duration="4351000" />
     </task>
     <task id="LOCAL-00001" summary="Added mapDispatchToProps as second optional parameter into connect function when exporting CoursesPage.js.&#10;&#10;Defined mapDispatchToProps to get a dispatch and return a object which contains the result of calling the dispatch with the action to create the course.&#10;&#10;Modified onclicksave deleting dispatch(courseActions because of we are using the dispatcher into the map itself.&#10;&#10;Removed the proptype to rquire for dispatcher because connect doesn't need it.">
       <created>1508246659278</created>
@@ -557,11 +556,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508656044412</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Implemented logic to put in use our preloader when there are ajax calls in progress, connecting our react and redux components in our entry point app.js">
+      <created>1508657134284</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1508657134284</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54778000" />
+    <option name="totallyTimeSpent" value="55196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="688" height="768" extended-state="0" />
@@ -593,7 +599,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding react thunk to the list of middlewares which uses the store to handle asynchronous calls" />
     <MESSAGE value="Created a function to get all courses from courses mock api and done error handling.&#10;Created a new actionType called LOAD_COURSES_SUCCESS and used it in courseActions" />
     <MESSAGE value="Changed from create course to LOAD_COURSES_SUCCESS in courseReducer to return the list." />
     <MESSAGE value="Updated app entry point index.js to dispatch the loadCourses action into the store." />
@@ -618,7 +623,8 @@
     <MESSAGE value="Adding an actioncreator an actiontype and a variable to track ajax calls" />
     <MESSAGE value="Created our ajaxBeginCall reducer and linked it into the root reducer." />
     <MESSAGE value="Dispatched beginAjaxCall in our course and author actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dispatched beginAjaxCall in our course and author actions" />
+    <MESSAGE value="Implemented logic to put in use our preloader when there are ajax calls in progress, connecting our react and redux components in our entry point app.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented logic to put in use our preloader when there are ajax calls in progress, connecting our react and redux components in our entry point app.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -933,14 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/course/ManageCoursePage..js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="67" lean-forward="false" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/LoadingDots.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1026,6 +1024,14 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/course/ManageCoursePage..js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="40" column="3" lean-forward="false" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
