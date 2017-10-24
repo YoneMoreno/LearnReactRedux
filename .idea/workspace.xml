@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc6e34e-139a-4095-9409-507778aba441" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/course/CourseForm.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/course/CourseForm.test.js" afterPath="$PROJECT_DIR$/src/components/course/CourseForm.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +54,8 @@
       <file leaf-file-name="CourseForm.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="298">
+              <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -346,7 +345,7 @@
       <workItem from="1508161407923" duration="3202000" />
       <workItem from="1508221489756" duration="25124000" />
       <workItem from="1508484398756" duration="7262000" />
-      <workItem from="1508653095120" duration="9004000" />
+      <workItem from="1508653095120" duration="9217000" />
     </task>
     <task id="LOCAL-00001" summary="Added mapDispatchToProps as second optional parameter into connect function when exporting CoursesPage.js.&#10;&#10;Defined mapDispatchToProps to get a dispatch and return a object which contains the result of calling the dispatch with the action to create the course.&#10;&#10;Modified onclicksave deleting dispatch(courseActions because of we are using the dispatcher into the map itself.&#10;&#10;Removed the proptype to rquire for dispatcher because connect doesn't need it.">
       <created>1508246659278</created>
@@ -600,11 +599,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508660915022</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Using mocha as test framework, expect as assert library and ReactTestUtils as test API.&#10;&#10;Green: renders form">
+      <created>1508864360380</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1508864360380</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59849000" />
+    <option name="totallyTimeSpent" value="60062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="688" height="768" extended-state="0" />
@@ -636,7 +642,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding course category" />
     <MESSAGE value="Created a file template to make React container components directly.&#10;New ManageCoursePage to see their info.&#10;Added a route to the course management page and other to edit it." />
     <MESSAGE value="Created a CourseForm which references two child components TextInput and SelectInput to host course data." />
     <MESSAGE value="Created TextInput and SelectInput to host our JSX and logic to edit courses." />
@@ -661,7 +666,8 @@
     <MESSAGE value="Added logic to disable saving button when processing is ongoing. Also fixed typo in CourseForm renaming loading to saving." />
     <MESSAGE value="Adding toastr to pop up a green window after saving a course." />
     <MESSAGE value="Added error handling to display a red pop up when course validation fails and updated internal redux store to display preloader just enough time to let user know processing is tried." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added error handling to display a red pop up when course validation fails and updated internal redux store to display preloader just enough time to let user know processing is tried." />
+    <MESSAGE value="Using mocha as test framework, expect as assert library and ReactTestUtils as test API.&#10;&#10;Green: renders form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using mocha as test framework, expect as assert library and ReactTestUtils as test API.&#10;&#10;Green: renders form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1072,8 +1078,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="298">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
