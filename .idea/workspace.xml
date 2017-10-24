@@ -54,8 +54,8 @@
       <file leaf-file-name="CourseForm.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="301">
+              <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -345,7 +345,7 @@
       <workItem from="1508161407923" duration="3202000" />
       <workItem from="1508221489756" duration="25124000" />
       <workItem from="1508484398756" duration="7262000" />
-      <workItem from="1508653095120" duration="9217000" />
+      <workItem from="1508653095120" duration="9343000" />
     </task>
     <task id="LOCAL-00001" summary="Added mapDispatchToProps as second optional parameter into connect function when exporting CoursesPage.js.&#10;&#10;Defined mapDispatchToProps to get a dispatch and return a object which contains the result of calling the dispatch with the action to create the course.&#10;&#10;Modified onclicksave deleting dispatch(courseActions because of we are using the dispatcher into the map itself.&#10;&#10;Removed the proptype to rquire for dispatcher because connect doesn't need it.">
       <created>1508246659278</created>
@@ -606,11 +606,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508864360380</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Green: renders form and h1">
+      <created>1508864513862</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1508864513862</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60062000" />
+    <option name="totallyTimeSpent" value="60188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="688" height="768" extended-state="0" />
@@ -642,7 +649,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created a file template to make React container components directly.&#10;New ManageCoursePage to see their info.&#10;Added a route to the course management page and other to edit it." />
     <MESSAGE value="Created a CourseForm which references two child components TextInput and SelectInput to host course data." />
     <MESSAGE value="Created TextInput and SelectInput to host our JSX and logic to edit courses." />
     <MESSAGE value="Updated ManageCoursePage to display edit course form ;=)" />
@@ -667,7 +673,8 @@
     <MESSAGE value="Adding toastr to pop up a green window after saving a course." />
     <MESSAGE value="Added error handling to display a red pop up when course validation fails and updated internal redux store to display preloader just enough time to let user know processing is tried." />
     <MESSAGE value="Using mocha as test framework, expect as assert library and ReactTestUtils as test API.&#10;&#10;Green: renders form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using mocha as test framework, expect as assert library and ReactTestUtils as test API.&#10;&#10;Green: renders form" />
+    <MESSAGE value="Green: renders form and h1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green: renders form and h1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1078,8 +1085,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="301">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
