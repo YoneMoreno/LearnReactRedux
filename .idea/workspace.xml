@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc6e34e-139a-4095-9409-507778aba441" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/course/CourseForm.Enzyme.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/course/CourseForm.test.js" afterPath="$PROJECT_DIR$/src/components/course/CourseForm.ReactTestUtils.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/course/CourseForm.Enzyme.test.js" afterPath="$PROJECT_DIR$/src/components/course/CourseForm.Enzyme.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +54,7 @@
       <file leaf-file-name="CourseForm.ReactTestUtils.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.ReactTestUtils.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="281">
               <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -67,8 +66,8 @@
       <file leaf-file-name="CourseForm.Enzyme.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.Enzyme.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -193,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/actions/courseActions.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/course/CourseForm.test.js" />
+        <option value="$PROJECT_DIR$/src/components/course/CourseForm.ReactTestUtils.test.js" />
         <option value="$PROJECT_DIR$/src/components/course/CourseForm.Enzyme.test.js" />
       </list>
     </option>
@@ -347,7 +347,7 @@
       <workItem from="1508161407923" duration="3202000" />
       <workItem from="1508221489756" duration="25124000" />
       <workItem from="1508484398756" duration="7262000" />
-      <workItem from="1508653095120" duration="10410000" />
+      <workItem from="1508653095120" duration="10585000" />
     </task>
     <task id="LOCAL-00001" summary="Added mapDispatchToProps as second optional parameter into connect function when exporting CoursesPage.js.&#10;&#10;Defined mapDispatchToProps to get a dispatch and return a object which contains the result of calling the dispatch with the action to create the course.&#10;&#10;Modified onclicksave deleting dispatch(courseActions because of we are using the dispatcher into the map itself.&#10;&#10;Removed the proptype to rquire for dispatcher because connect doesn't need it.">
       <created>1508246659278</created>
@@ -629,11 +629,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508864824800</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Green: renders form and h1">
+      <created>1508865996790</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1508865996790</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61255000" />
+    <option name="totallyTimeSpent" value="61430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="688" height="768" extended-state="0" />
@@ -687,10 +694,10 @@
     <MESSAGE value="Adding toastr to pop up a green window after saving a course." />
     <MESSAGE value="Added error handling to display a red pop up when course validation fails and updated internal redux store to display preloader just enough time to let user know processing is tried." />
     <MESSAGE value="Using mocha as test framework, expect as assert library and ReactTestUtils as test API.&#10;&#10;Green: renders form" />
-    <MESSAGE value="Green: renders form and h1" />
     <MESSAGE value="Green: save button is labeled &quot;Save&quot; when not saving ;=)" />
     <MESSAGE value="Green: save button is labeled &quot;Saving...&quot; when saving ;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green: save button is labeled &quot;Saving...&quot; when saving ;)" />
+    <MESSAGE value="Green: renders form and h1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green: renders form and h1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1094,7 +1101,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.ReactTestUtils.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="281">
           <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -1104,8 +1111,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.Enzyme.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
