@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc6e34e-139a-4095-9409-507778aba441" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/course/ManageCoursePage.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/course/CourseForm.Enzyme.test.js" afterPath="$PROJECT_DIR$/src/components/course/CourseForm.Enzyme.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/course/ManageCoursePage..js" afterPath="$PROJECT_DIR$/src/components/course/ManageCoursePage..js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +21,8 @@
       <file leaf-file-name="ManageCoursePage..js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/course/ManageCoursePage..js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+            <state relative-caret-position="119">
+              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -63,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseForm.Enzyme.test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CourseForm.Enzyme.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.Enzyme.test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
@@ -75,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseForm.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/course/CourseForm.js">
+      <file leaf-file-name="ManageCoursePage.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/course/ManageCoursePage.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -87,15 +88,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+      <file leaf-file-name="SelectInput.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/common/SelectInput.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-              <folding>
-                <element signature="e#35#59#0" expanded="true" />
-                <element signature="e#472#534#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-119">
+              <caret line="14" column="90" lean-forward="false" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/course/CourseForm.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/course/ManageCoursePage..js" />
         <option value="$PROJECT_DIR$/src/actions/actionTypes.js" />
         <option value="$PROJECT_DIR$/src/actions/ajaxStatusActions.js" />
         <option value="$PROJECT_DIR$/src/reducers/ajaxStatusReducer.js" />
@@ -194,6 +191,8 @@
         <option value="$PROJECT_DIR$/src/components/course/CourseForm.test.js" />
         <option value="$PROJECT_DIR$/src/components/course/CourseForm.ReactTestUtils.test.js" />
         <option value="$PROJECT_DIR$/src/components/course/CourseForm.Enzyme.test.js" />
+        <option value="$PROJECT_DIR$/src/components/course/ManageCoursePage..js" />
+        <option value="$PROJECT_DIR$/src/components/course/ManageCoursePage.test.js" />
       </list>
     </option>
   </component>
@@ -347,7 +346,7 @@
       <workItem from="1508161407923" duration="3202000" />
       <workItem from="1508221489756" duration="25124000" />
       <workItem from="1508484398756" duration="7262000" />
-      <workItem from="1508653095120" duration="10682000" />
+      <workItem from="1508653095120" duration="11791000" />
     </task>
     <task id="LOCAL-00001" summary="Added mapDispatchToProps as second optional parameter into connect function when exporting CoursesPage.js.&#10;&#10;Defined mapDispatchToProps to get a dispatch and return a object which contains the result of calling the dispatch with the action to create the course.&#10;&#10;Modified onclicksave deleting dispatch(courseActions because of we are using the dispatcher into the map itself.&#10;&#10;Removed the proptype to rquire for dispatcher because connect doesn't need it.">
       <created>1508246659278</created>
@@ -643,11 +642,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508866173756</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Green: save button is labeled &quot;Saving...&quot; when saving.">
+      <created>1508866272150</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1508866272150</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61527000" />
+    <option name="totallyTimeSpent" value="62636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="688" height="768" extended-state="0" />
@@ -660,7 +666,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753164" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23734178" sideWeight="0.48" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36392406" sideWeight="0.48" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -679,7 +685,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created a thunk to relate actions and dispatch in an asynchronous call in authorActions" />
     <MESSAGE value="Created an authorReducer to get the state and fire the action poperly.&#10;Created an initialState to host in a constants file all initial states.&#10;Changed rootReducer aka reducers/index.js to execute our author one.&#10;Making in our entry index.js point a call from the store to get all authors." />
     <MESSAGE value="Trying to map author data for the dropdown but browser says there is a bad import." />
     <MESSAGE value="Added missing extension.js to authorActions!" />
@@ -704,7 +709,8 @@
     <MESSAGE value="Green: save button is labeled &quot;Saving...&quot; when saving ;)" />
     <MESSAGE value="Green: renders form and h1" />
     <MESSAGE value="Green: save button is labeled &quot;Save&quot; when not saving" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green: save button is labeled &quot;Save&quot; when not saving" />
+    <MESSAGE value="Green: save button is labeled &quot;Saving...&quot; when saving." />
+    <option name="LAST_COMMIT_MESSAGE" value="Green: save button is labeled &quot;Saving...&quot; when saving." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -713,13 +719,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack.config.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="77" lean-forward="false" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -922,14 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/SelectInput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="90" lean-forward="false" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/authorReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1052,16 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/course/ManageCoursePage..js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/actionTypes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1122,6 +1103,34 @@
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/course/ManageCoursePage..js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/SelectInput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="14" column="90" lean-forward="false" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/course/ManageCoursePage.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
