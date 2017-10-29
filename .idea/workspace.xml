@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc6e34e-139a-4095-9409-507778aba441" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.prod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/buildHtml.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="selectors.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/selectors/selectors.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/build.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
@@ -108,6 +95,18 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#180#210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buildHtml.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/buildHtml.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.eslintrc" />
         <option value="$PROJECT_DIR$/tools/startMessage.js" />
         <option value="$PROJECT_DIR$/tools/testSetup.js" />
         <option value="$PROJECT_DIR$/src/components/about/AboutPage.js" />
@@ -207,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/tools/webpack.config.prod.js" />
         <option value="$PROJECT_DIR$/tools/build.js" />
+        <option value="$PROJECT_DIR$/tools/buildHtml.js" />
       </list>
     </option>
   </component>
@@ -386,14 +385,7 @@
       <workItem from="1509038661260" duration="2197000" />
       <workItem from="1509209807967" duration="948000" />
       <workItem from="1509223527870" duration="1541000" />
-      <workItem from="1509255940982" duration="3334000" />
-    </task>
-    <task id="LOCAL-00006" summary="Adding react thunk to the list of middlewares which uses the store to handle asynchronous calls">
-      <created>1508250290710</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1508250290710</updated>
+      <workItem from="1509255940982" duration="3897000" />
     </task>
     <task id="LOCAL-00007" summary="Created a function to get all courses from courses mock api and done error handling.&#10;Created a new actionType called LOAD_COURSES_SUCCESS and used it in courseActions">
       <created>1508251236739</created>
@@ -731,11 +723,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509257758977</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Adapted our webpack config to use a GLOBAL variable from NODE_ENV to distinguis development and production modes. Also it makes our css file a separated physical file.&#10;Also we have written a build.js to point to our new webpack production mode config and message errors, warnings and output.">
+      <created>1509259431939</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1509259431939</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73169000" />
+    <option name="totallyTimeSpent" value="73732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="768" extended-state="0" />
@@ -767,7 +766,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding an actioncreator an actiontype and a variable to track ajax calls" />
     <MESSAGE value="Created our ajaxBeginCall reducer and linked it into the root reducer." />
     <MESSAGE value="Dispatched beginAjaxCall in our course and author actions" />
     <MESSAGE value="Implemented logic to put in use our preloader when there are ajax calls in progress, connecting our react and redux components in our entry point app.js" />
@@ -792,7 +790,8 @@
     <MESSAGE value="Green: Course Actions,      it('should create BEGIN_AJAX_CALL and LOAD_COURSES_SUCCESS when loading courses'&#10;&#10;Testing a thunk (which is something which is used to load asynchrnous data and returns a function and is commonly related to dispatch an action)." />
     <MESSAGE value="Green: Store, Should handle creating courses ;=)" />
     <MESSAGE value="Separated our development and production stores to wipe out invariant from the second one to make the app faster." />
-    <option name="LAST_COMMIT_MESSAGE" value="Separated our development and production stores to wipe out invariant from the second one to make the app faster." />
+    <MESSAGE value="Adapted our webpack config to use a GLOBAL variable from NODE_ENV to distinguis development and production modes. Also it makes our css file a separated physical file.&#10;Also we have written a build.js to point to our new webpack production mode config and message errors, warnings and output." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapted our webpack config to use a GLOBAL variable from NODE_ENV to distinguis development and production modes. Also it makes our css file a separated physical file.&#10;Also we have written a build.js to point to our new webpack production mode config and message errors, warnings and output." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -801,13 +800,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/srcServer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -1198,6 +1190,16 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#180#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/buildHtml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
